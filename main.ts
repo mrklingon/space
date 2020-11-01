@@ -1,0 +1,12 @@
+let Sun = game.createSprite(2, 2)
+let Mercury = game.createSprite(2, 1)
+let Venus = game.createSprite(2, 0)
+Mercury.turn(Direction.Right, 45)
+Venus.turn(Direction.Right, 45)
+basic.forever(function () {
+    Mercury.move(1)
+    Mercury.turn(Direction.Right, 90)
+    Venus.turn(Direction.Right, 45)
+    Venus.move(1)
+    basic.pause(1000)
+})
