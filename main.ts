@@ -8,5 +8,5 @@ basic.forever(function () {
     Mercury.turn(Direction.Right, 90)
     Venus.turn(Direction.Right, 45)
     Venus.move(1)
-    basic.pause(1000)
+    basic.pause(500)
 })
